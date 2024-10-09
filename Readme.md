@@ -7,7 +7,7 @@ and includes user authentication with JWT. The system allows users to create, up
 supports filtering by task status, and pagination, and ensures that only authorized users can access the service. The
 application is fully Dockerized for easy setup and deployment.
 
-API Documentation [https://docs.google.com/document/d/1mFH4yAI1E3IzMou-yT8c5PPu1uHhQ_gV/edit?usp=sharing&ouid=110472722426617783568&rtpof=true&sd=true](https://docs.google.com/document/d/1bh7QTiMV3qM-nw91RlrzXImIhMehI2sc/edit?usp=sharing&ouid=110472722426617783568&rtpof=true&sd=true)
+API Documentation [Link](https://drive.google.com/file/d/1euuTm4GmwqqPT9e3e7NGLQs_kAPKqdP_/view?usp=sharing)
 
 ## Features
 
