@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     db_port: str
     db_name: str
 
-    test_db_url: str
+    test_db_name: str
 
     pgadmin_email: str
     pgadmin_password: str
