@@ -252,7 +252,7 @@ def delete_task(
         current_user: UserModel = Depends(get_current_user),
 ):
     """
-    Delete a task by its ID. Can be deleted only by owner
+    Delete a task by its ID. Can be deleted only by owner.
 
     - **task_id**: ID of the task to delete.
     """
