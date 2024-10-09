@@ -246,7 +246,7 @@ def update_task(
 
 # Endpoint to delete task. Can be deleted only by owner
 @app.delete("/tasks/{task_id}", response_model=dict, status_code=200)
-def update_task(
+def delete_task(
         task_id: int,
         session: Session = Depends(get_db),
         current_user: UserModel = Depends(get_current_user),
