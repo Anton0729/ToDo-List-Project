@@ -6,8 +6,8 @@ This project is a task list management system built with FastAPI and PostgreSQL,
 and includes user authentication with JWT. The system allows users to create, update, view, and delete tasks. It
 supports filtering by task status, and pagination, and ensures that only authorized users can access the service. The
 application is fully Dockerized for easy setup and deployment.
-API
-Documentation [https://docs.google.com/document/d/1mFH4yAI1E3IzMou-yT8c5PPu1uHhQ_gV/edit?usp=sharing&ouid=110472722426617783568&rtpof=true&sd=true](https://docs.google.com/document/d/1bh7QTiMV3qM-nw91RlrzXImIhMehI2sc/edit?usp=sharing&ouid=110472722426617783568&rtpof=true&sd=true)
+
+API Documentation [https://docs.google.com/document/d/1mFH4yAI1E3IzMou-yT8c5PPu1uHhQ_gV/edit?usp=sharing&ouid=110472722426617783568&rtpof=true&sd=true](https://docs.google.com/document/d/1bh7QTiMV3qM-nw91RlrzXImIhMehI2sc/edit?usp=sharing&ouid=110472722426617783568&rtpof=true&sd=true)
 
 ## Features
 
@@ -20,10 +20,14 @@ Documentation [https://docs.google.com/document/d/1mFH4yAI1E3IzMou-yT8c5PPu1uHhQ
    - Update task information (can be updated only by owner)
    - Delete a task (can be updated only by owner)
 3. **Task Filtering and Pagination**
-4. **Docker Container with Docker Compose**
-5. **JWT User Authentication and Authorization**
-6. **Writing Unit Tests with Coverage**
-7. **Manage Migrations with Alembic**
+   - Filtering tasks by status (New, In progress, Completed)
+5. **Docker Container with Docker Compose**
+6. **JWT User Authentication and Authorization**
+7. **Writing Unit Tests with Coverage**
+8.  - Unit tests for API endpoints
+    - Coverage tool to check the percentage of test coverage using
+9. Unit tests for the main API endpoints
+10. **Manage Migrations with Alembic**
 
 
 ## <ins> Setup Instructions
