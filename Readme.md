@@ -45,16 +45,16 @@ cd .\ToDo-List-Project\
 
 ### 2. Run Docker Desktop
 
-### 3. Build the container
+### 3. Build and run the container
 
 ```bash
-docker-compose build
+docker-compose up --build
 ```
 
-### 4. Run the container
-
+### 4. Apply All Migrations
+Make sure all migrations are applied:
 ```bash
-docker-compose up -d
+docker-compose exec web alembic upgrade head 
 ```
 
 ### 5. Access the Application
