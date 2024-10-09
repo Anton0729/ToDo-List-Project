@@ -13,11 +13,12 @@ Documentation [https://docs.google.com/document/d/1mFH4yAI1E3IzMou-yT8c5PPu1uHhQ
 
 1. **FastAPI with PostgreSQL Setup**
 2. **CRUD Operations for Managing Tasks**
-   - Create a task
-   - Retrieve a list of tasks
-   - Retrieve detailed information about a task by ID
-   - Update task information
-   - Delete a task
+   - Get a list of all tasks
+   - Get a list of all user's tasks
+   - Get information about a specific task
+   - Create new task
+   - Update task information (can be updated only by owner)
+   - Delete a task (can be updated only by owner)
 3. **Task Filtering and Pagination**
 4. **Docker Container with Docker Compose**
 5. **JWT User Authentication and Authorization**
