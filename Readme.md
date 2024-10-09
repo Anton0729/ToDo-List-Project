@@ -2,29 +2,35 @@
 
 ## Overview
 
-This project is a task management system built with FastAPI and PostgreSQL, enabling users to manage tasks (ToDo list)
+This project is a task list management system built with FastAPI and PostgreSQL, enabling users to manage tasks (ToDo list)
 and includes user authentication with JWT. The system allows users to create, update, view, and delete tasks. It
 supports filtering by task status, and pagination, and ensures that only authorized users can access the service. The
 application is fully Dockerized for easy setup and deployment.
-API
-Documentation [https://docs.google.com/document/d/1mFH4yAI1E3IzMou-yT8c5PPu1uHhQ_gV/edit?usp=sharing&ouid=110472722426617783568&rtpof=true&sd=true](https://docs.google.com/document/d/1bh7QTiMV3qM-nw91RlrzXImIhMehI2sc/edit?usp=sharing&ouid=110472722426617783568&rtpof=true&sd=true)
+
+You can find the API documentation in the following link: [Link](https://drive.google.com/file/d/1euuTm4GmwqqPT9e3e7NGLQs_kAPKqdP_/view?usp=sharing)
+<br>
+Additionally, you can find the documentation in Swagger at the following URL: `http://localhost:8000/docs`
 
 ## Features
 
-1. FastAPI with PostgreSQL setup
-2. CRUD operations for managing tasks
+1. **FastAPI with PostgreSQL Setup**
+2. **CRUD Operations for Managing Tasks**
+   - Get a list of all tasks
+   - Get a list of all user's tasks
+   - Get information about a specific task
+   - Create new task
+   - Update task information (can be updated only by owner)
+   - Delete a task (can be updated only by owner)
+3. **Task Filtering and Pagination**
+   - Filtering tasks by status (New, In progress, Completed)
+5. **Docker Container with Docker Compose**
+6. **JWT User Authentication and Authorization**
+7. **Writing Unit Tests with Coverage**
+8.  - Unit tests for API endpoints
+    - Coverage tool to check the percentage of test coverage using
+9. Unit tests for the main API endpoints
+10. **Manage Migrations with Alembic**
 
-- Create a book
-- Retrieve a list of books
-- Retrieve detailed information about a book by ID
-- Update book information
-- Delete a book
-
-3. Task filtering and pagination
-4. Docker container with docker-compose
-5. JWT User Authentication and Authorization
-6. Writing Unit Test with Coverage
-7. Manage Migrations with Alembic script
 
 ## <ins> Setup Instructions
 
