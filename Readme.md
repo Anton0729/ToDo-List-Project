@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a task management system built with FastAPI and PostgreSQL, enabling users to manage tasks (ToDo list)
+This project is a task list management system built with FastAPI and PostgreSQL, enabling users to manage tasks (ToDo list)
 and includes user authentication with JWT. The system allows users to create, update, view, and delete tasks. It
 supports filtering by task status, and pagination, and ensures that only authorized users can access the service. The
 application is fully Dockerized for easy setup and deployment.
@@ -11,20 +11,19 @@ Documentation [https://docs.google.com/document/d/1mFH4yAI1E3IzMou-yT8c5PPu1uHhQ
 
 ## Features
 
-1. FastAPI with PostgreSQL setup
-2. CRUD operations for managing tasks
+1. **FastAPI with PostgreSQL Setup**
+2. **CRUD Operations for Managing Tasks**
+   - Create a task
+   - Retrieve a list of tasks
+   - Retrieve detailed information about a task by ID
+   - Update task information
+   - Delete a task
+3. **Task Filtering and Pagination**
+4. **Docker Container with Docker Compose**
+5. **JWT User Authentication and Authorization**
+6. **Writing Unit Tests with Coverage**
+7. **Manage Migrations with Alembic**
 
-- Create a book
-- Retrieve a list of books
-- Retrieve detailed information about a book by ID
-- Update book information
-- Delete a book
-
-3. Task filtering and pagination
-4. Docker container with docker-compose
-5. JWT User Authentication and Authorization
-6. Writing Unit Test with Coverage
-7. Manage Migrations with Alembic script
 
 ## <ins> Setup Instructions
 
